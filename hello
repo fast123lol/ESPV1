@@ -8,7 +8,6 @@ _G.TeamCheck = false -- Use True or False to toggle TeamCheck
 for i,v in pairs(game.Players:GetChildren()) do
     local Tracer = Drawing.new("Line")
     Tracer.Visible = true
-    Tracer.Color = Color3.new(255,255,255)
     Tracer.Thickness = 1
     Tracer.Transparency = 1
 
